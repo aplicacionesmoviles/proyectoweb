@@ -24,10 +24,15 @@ body {
 .titulo span {
     font-size: 2rem;
 }
-h1 {
-	text-align:center;
-	font-size: 3.8rem;
+
+.contenedor {
+    width:120rem;
 }
-span{
-    font-size:2rem;
+.nav-bg{
+    background-color: var(--secundario);
+
+}
+.navegacion-principal {
+    
+
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi pagina web</title>
-    <link rel="preload" href="css/normalize.css/normalize.css">
+    <link rel="preconnect" href="css/normalize.css/normalize.css">
     <link rel="stylesheet" href="css/normalize.css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,14 +19,15 @@
          <h1 class="titulo"> Cruz Guillermo <span>Freelancer</span> </h1>
          
     </header>
-     <nav> <!-- menu de navegacion de un solo nivel, para varios niveles se una <ul >con  <li>-->
-             <a href="#">Inicio</a>
-             <a href="#">Sobre Mi</a>
-             <a href="#">Clientes</a>s
-             <a href="#">Contacto</a>
-             
-     </nav>      
-     
+     <div class="nav-bg">
+        <nav class="navegacion-principal contenedor"> <!-- menu de navegacion de un solo nivel, para varios niveles se una <ul >con  <li>-->
+                <a href="#">Inicio</a>
+                <a href="#">Sobre Mi</a>
+                <a href="#">Clientes</a>
+                <a href="#">Contacto</a>
+                
+        </nav>      
+    </div> 
 
     <section>  <!--no hace parte del contenido ppal entonces lo pongo denro del ssection-->
             <h2 class="titulo"> Diseño y desarrollo web Freelancer</h2>
