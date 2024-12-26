@@ -38,7 +38,7 @@ body {
 
 }
 .navegacion-principal {   
-    padding: 1rem;
+   
     display: flex;
     justify-content: space-between;
 }
@@ -47,5 +47,14 @@ body {
 
     color: var(--blanco);
     text-decoration:none;
+
+    font-size: 2rem;
+    font-weight: 700;/* por defecto las fuentes vienen en 700px o bold q es lo mismo */
     
+}
+/*hover para que se ilumuni cuando paso el mouse sobre el link*/
+.navegacion-principal a:hover {
+
+    background-color: var(--primario);
+    color: var(--oscuro); /*para que al posar el mouse se ponga en negra la letra*/
 }
