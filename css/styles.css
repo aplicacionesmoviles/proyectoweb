@@ -10,7 +10,12 @@
 
 html {
 	font-size:62.5%;
+    box-sizing: border-box;
     
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+
 }
 body {
 	font-size: 16px; /*1rem=10px*/
@@ -62,9 +67,12 @@ body {
     background-color: var(--primario);
     color: var(--oscuro); /*para que al posar el mouse se ponga en negra la letra*/
 }
+/*clase que manejara la img ppal*/
 .hero   {   
     background-image: url(../img/hero.jpg);
     background-repeat:none;/*para que no se reprita la img a lo largo*/
     background-size: cover;
+    height: 450px;
+    padding: 20px;
 }
 
